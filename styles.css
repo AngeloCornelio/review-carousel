@@ -50,3 +50,9 @@ img {
     letter-spacing: 0.25em;
     color: #172f45;
 }
+
+#job {
+    text-align: center;
+    text-transform: uppercase;
+    color: #66afeb;
+}

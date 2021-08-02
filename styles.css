@@ -34,3 +34,12 @@ hr {
     box-shadow: 0 0 1em 0.1em rgba(0, 0, 0, 0.1);
     margin-top: 3em;
 }
+
+img {
+    width: 9em;
+    height: 9em;
+    border-radius: 50%;
+    box-shadow: 0.5em -0.25em #49a6e9;
+    margin: 0 auto;
+    display: block;
+}

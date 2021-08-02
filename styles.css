@@ -43,3 +43,10 @@ img {
     margin: 0 auto;
     display: block;
 }
+
+#name {
+    text-align: center;
+    font-size: 1.1em;
+    letter-spacing: 0.25em;
+    color: #172f45;
+}

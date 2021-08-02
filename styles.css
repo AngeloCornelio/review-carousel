@@ -24,3 +24,13 @@ hr {
     width: 8%;
     height: 0;
 }
+
+.card {
+    width: 90%;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 1em;
+    box-sizing: border-box;
+    box-shadow: 0 0 1em 0.1em rgba(0, 0, 0, 0.1);
+    margin-top: 3em;
+}

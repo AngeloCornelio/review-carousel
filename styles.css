@@ -17,3 +17,10 @@ h1 {
     color: #102b42;
     letter-spacing: 0.1em;
 }
+
+hr {
+    border: 0.15em solid #49a6e9;
+    background-color: #49a6e9;
+    width: 8%;
+    height: 0;
+}

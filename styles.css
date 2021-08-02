@@ -7,6 +7,13 @@ body, h1, div, p, button, h2, img {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     background-color: #f1f5f8;
+}
+
+h1 {
+    width: auto;
+    margin-top: 1em;
+    color: #102b42;
+    letter-spacing: 0.1em;
 }

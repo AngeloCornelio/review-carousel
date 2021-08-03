@@ -61,3 +61,13 @@ img {
     text-align: center;
     color: #738da3;
 }
+
+button {
+    font-size: 2em;
+    font-weight: bold;
+    color: #8ccbf9;
+    border: none;
+    background-color: white;
+    width: 2em;
+    height: 2em;
+}

@@ -90,3 +90,12 @@ prev.addEventListener("click", () => {
 	}
 	displayReview()
 })
+
+random.addEventListener("click", () => {
+	let randInt = current
+	while(randInt === current){
+		randInt = Math.floor(Math.random() * reviews.length)
+	}
+	current = randInt
+	displayReview()
+})

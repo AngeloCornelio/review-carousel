@@ -85,3 +85,8 @@ button {
     display: block;
     margin: 0 auto;
 }
+
+#change {
+    display: flex;
+    justify-content: center;
+}

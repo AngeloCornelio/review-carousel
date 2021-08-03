@@ -1,0 +1,95 @@
+body, h1, div, p, button, h2, img {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f5f8;
+}
+
+h1 {
+    width: auto;
+    margin-top: 1em;
+    color: #102b42;
+    letter-spacing: 0.1em;
+}
+
+hr {
+    border: 0.15em solid #49a6e9;
+    background-color: #49a6e9;
+    width: 8%;
+    height: 0;
+}
+
+.card {
+    width: 90%;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 1em;
+    box-sizing: border-box;
+    box-shadow: 0 0 1em 0.1em rgba(0, 0, 0, 0.1);
+    margin-top: 3em;
+}
+
+img {
+    width: 9em;
+    height: 9em;
+    border-radius: 50%;
+    box-shadow: 0.5em -0.25em #49a6e9;
+    margin: 0 auto;
+    display: block;
+}
+
+#name {
+    text-align: center;
+    font-size: 1.1em;
+    letter-spacing: 0.25em;
+    color: #172f45;
+    margin-top: 1em;
+}
+
+#job {
+    text-align: center;
+    text-transform: uppercase;
+    color: #66afeb;
+}
+
+#review {
+    text-align: center;
+    color: #738da3;
+    margin-top: 1em;
+    line-height: 1.5em;
+}
+
+button {
+    font-size: 2em;
+    font-weight: bold;
+    color: #8ccbf9;
+    border: none;
+    background-color: white;
+    width: 2em;
+    height: 2em;
+}
+
+#random {
+    border: 2px outset #49a6e9;
+    border-radius: 0.5em;
+    width: auto;
+    height: auto;
+    padding: 0.25em;
+    font-size: 1em;
+    font-weight: normal;
+    background-color: #ecf7ff;
+    color: #64abeb;
+    display: block;
+    margin: 0 auto;
+}
+
+#change {
+    display: flex;
+    justify-content: center;
+}

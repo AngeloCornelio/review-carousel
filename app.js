@@ -59,3 +59,34 @@ const reviews = [
 			+ "you don't miss my content."
 	}
 ]
+const image = document.querySelector("img")
+const author = document.getElementById("name")
+const job = document.getElementById("job")
+const review = document.getElementById("review")
+const prev = document.getElementById("prev")
+const next = document.getElementById("next")
+const random = document.getElementById("random")
+let current = 0
+
+function displayReview() {
+	image.src = reviews[current].image
+	author.innerText = reviews[current].name
+	job.innerText = reviews[current].job
+	review.innerText = reviews[current].review
+}
+
+next.addEventListener("click", () => {
+	current++
+	if(current >= reviews.length){
+		current = 0
+	}
+	displayReview()
+})
+
+prev.addEventListener("click", () => {
+	current--
+	if(current < 0){
+		current = reviews.length - 1
+	}
+	displayReview()
+})

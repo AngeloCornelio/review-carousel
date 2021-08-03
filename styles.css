@@ -71,3 +71,17 @@ button {
     width: 2em;
     height: 2em;
 }
+
+#random {
+    border: 2px outset #49a6e9;
+    border-radius: 0.5em;
+    width: auto;
+    height: auto;
+    padding: 0.25em;
+    font-size: 1em;
+    font-weight: normal;
+    background-color: #ecf7ff;
+    color: #64abeb;
+    display: block;
+    margin: 0 auto;
+}

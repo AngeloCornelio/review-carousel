@@ -49,6 +49,7 @@ img {
     font-size: 1.1em;
     letter-spacing: 0.25em;
     color: #172f45;
+    margin-top: 1em;
 }
 
 #job {
@@ -60,6 +61,8 @@ img {
 #review {
     text-align: center;
     color: #738da3;
+    margin-top: 1em;
+    line-height: 1.5em;
 }
 
 button {
